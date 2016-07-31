@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>recruiter</title>
+
+    <script src="library/angular/angular.min.js"></script>
+    <script src="library/angular-animate/angular-animate.min.js"></script>
+    <script src="library/angular-resource/angular-resource.min.js"></script>
+    <script src="library/angular-ui-router/angular-ui-router.min.js"></script>
+
+    <script src="application/recruiter.shared.route.js"></script>
+
+    <!--Modules-->
+    <script src="application/recruiterApp.js"></script>
+    <script src="application/applicant/applicant.module.js"></script>
+    <script src="application/recruiter.shared.service.js"></script>
+    <script src="application/recruiter.shared.common.js"></script>
+    <!-- Config -->
+    <script src="application/applicant/applicant.config.js"></script>
+    
+    <!-- Conatant -->
+    <script src="application/applicant/applicant.constant.js"></script>
+    
+    <!-- Resource -->
+    <script src="application/applicant/applicant.resource.js"></script>
+    
+    <!-- Service -->
+    <script src="application/applicant/applicant.service.js"></script>
+    
+    <!-- Controllers -->
+    <script src="application/applicant/applicant.controller.js"></script>
+</head>
+<body ng-app="recruiterApp" ng-cloak>
+    <div ui-view></div>
+</body>
+</html>
